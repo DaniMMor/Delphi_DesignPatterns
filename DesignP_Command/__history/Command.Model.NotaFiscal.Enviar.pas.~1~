@@ -1,7 +1,0 @@
-unit Command.Model.NotaFiscal.Enviar;
-
-interface
-
-implementation
-
-end.

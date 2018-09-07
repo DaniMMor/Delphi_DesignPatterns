@@ -1,7 +1,0 @@
-unit Memento.Model.Memento;
-
-interface
-
-implementation
-
-end.

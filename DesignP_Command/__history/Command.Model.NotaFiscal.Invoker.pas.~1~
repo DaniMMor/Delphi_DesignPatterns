@@ -1,7 +1,0 @@
-unit Command.Model.NotaFiscal.Invoker;
-
-interface
-
-implementation
-
-end.

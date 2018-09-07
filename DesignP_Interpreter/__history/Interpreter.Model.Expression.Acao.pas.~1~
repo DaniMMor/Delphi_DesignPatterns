@@ -1,7 +1,0 @@
-unit Interpreter.Model.Expression.Acao;
-
-interface
-
-implementation
-
-end.
