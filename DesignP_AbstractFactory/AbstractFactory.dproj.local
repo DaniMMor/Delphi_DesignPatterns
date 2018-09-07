@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/05 17:21:34.000.671,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/05 17:21:54.038,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/05 17:25:07.243,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/08/05 17:26:57.234,C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\Model.Interfaces.pas=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/08/05 17:27:10.691,C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\frmPrincipal.pas=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/05 17:27:10.691,C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\frmPrincipal.fmx=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2018/08/05 17:27:20.714,C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\AbstractFactory.dproj=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/05 17:29:15.381,=C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\Unit1.pas</Transaction>
+    <Transaction>2018/08/05 17:29:40.785,C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\Model.Pessoal.pas=C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\Unit1.pas</Transaction>
+    <Transaction>2018/08/05 17:35:11.305,=C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\Unit1.pas</Transaction>
+    <Transaction>2018/08/05 17:35:22.740,C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\Model.NotaFiscal.pas=C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\Unit1.pas</Transaction>
+    <Transaction>2018/08/05 17:53:31.198,=C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\Unit1.pas</Transaction>
+    <Transaction>2018/08/05 17:53:41.586,C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\Model.Factory.pas=C:\Users\w7\Desktop\Patterns\aulas\AbstractFactory\Unit1.pas</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>

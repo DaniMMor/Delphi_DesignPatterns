@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/05 17:21:34.000.671,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/11 22:12:58.813,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/11 22:15:33.958,C:\Users\w7\Desktop\Patterns\aulas\Decorator\Decorator.View.Principal.dfm=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/11 22:15:33.958,C:\Users\w7\Desktop\Patterns\aulas\Decorator\Decorator.View.Principal.pas=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/11 22:15:40.872,C:\Users\w7\Desktop\Patterns\aulas\Decorator\Decorator.dproj=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/11 22:20:56.098,=C:\Users\w7\Desktop\Patterns\aulas\Decorator\Unit1.pas</Transaction>
+    <Transaction>2018/08/11 22:22:08.144,C:\Users\w7\Desktop\Patterns\aulas\Decorator\Decorator.Model.NFC.pas=C:\Users\w7\Desktop\Patterns\aulas\Decorator\Unit1.pas</Transaction>
+    <Transaction>2018/08/11 22:22:26.818,=C:\Users\w7\Desktop\Patterns\aulas\Decorator\Unit1.pas</Transaction>
+    <Transaction>2018/08/11 22:22:41.483,C:\Users\w7\Desktop\Patterns\aulas\Decorator\Decorator.Model.SAT.pas=C:\Users\w7\Desktop\Patterns\aulas\Decorator\Unit1.pas</Transaction>
+    <Transaction>2018/08/11 22:28:03.231,=C:\Users\w7\Desktop\Patterns\aulas\Decorator\Unit1.pas</Transaction>
+    <Transaction>2018/08/11 22:28:19.900,C:\Users\w7\Desktop\Patterns\aulas\Decorator\Decorator.Model.Interfaces.pas=C:\Users\w7\Desktop\Patterns\aulas\Decorator\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

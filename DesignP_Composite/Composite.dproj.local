@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/05 17:21:34.000.671,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/10 22:19:08.943,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/10 22:23:22.052,C:\Users\w7\Desktop\Patterns\aulas\Composite\Composite.View.Principal.dfm=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/10 22:23:22.052,C:\Users\w7\Desktop\Patterns\aulas\Composite\Composite.View.Principal.pas=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/10 22:23:32.674,C:\Users\w7\Desktop\Patterns\aulas\Composite\Composite.dproj=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/10 22:24:51.078,=C:\Users\w7\Desktop\Patterns\aulas\Composite\Unit1.pas</Transaction>
+    <Transaction>2018/08/10 22:25:13.658,C:\Users\w7\Desktop\Patterns\aulas\Composite\Composite.Model.Interfaces.pas=C:\Users\w7\Desktop\Patterns\aulas\Composite\Unit1.pas</Transaction>
+    <Transaction>2018/08/10 22:27:09.450,=C:\Users\w7\Desktop\Patterns\aulas\Composite\Unit1.pas</Transaction>
+    <Transaction>2018/08/10 22:27:50.751,C:\Users\w7\Desktop\Patterns\aulas\Composite\Composite.Model.Venda.pas=C:\Users\w7\Desktop\Patterns\aulas\Composite\Unit1.pas</Transaction>
+    <Transaction>2018/08/10 22:36:55.780,=C:\Users\w7\Desktop\Patterns\aulas\Composite\Unit1.pas</Transaction>
+    <Transaction>2018/08/10 22:37:10.037,C:\Users\w7\Desktop\Patterns\aulas\Composite\Composite.Model.Itens.pas=C:\Users\w7\Desktop\Patterns\aulas\Composite\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

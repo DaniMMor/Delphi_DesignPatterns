@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/05 17:21:34.000.671,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/16 22:27:13.000.622,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/16 22:27:27.000.394,C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit1.dfm=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/16 22:27:27.000.394,C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit1.pas=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/16 22:27:36.000.179,C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Interpreter.dproj=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/16 22:27:55.000.988,C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Interpreter.View.Principal.dfm=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit1.dfm</Transaction>
+    <Transaction>2018/08/16 22:27:55.000.988,C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Interpreter.View.Principal.pas=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit1.pas</Transaction>
+    <Transaction>2018/08/16 22:32:41.000.146,=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit2.pas</Transaction>
+    <Transaction>2018/08/16 22:33:33.000.730,C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Interpreter.Model.Interfaces.pas=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit2.pas</Transaction>
+    <Transaction>2018/08/17 22:17:15.666,=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit2.pas</Transaction>
+    <Transaction>2018/08/17 22:17:35.722,C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Interpreter.Model.Context.pas=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit2.pas</Transaction>
+    <Transaction>2018/08/17 22:25:28.761,=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit2.pas</Transaction>
+    <Transaction>2018/08/17 22:25:47.132,C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Interpreter.Model.Expression.Acao.pas=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit2.pas</Transaction>
+    <Transaction>2018/08/17 22:40:37.695,=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit2.pas</Transaction>
+    <Transaction>2018/08/17 22:40:57.835,C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Interpreter.Model.Expression.Item.pas=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit2.pas</Transaction>
+    <Transaction>2018/08/17 22:53:50.191,=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit2.pas</Transaction>
+    <Transaction>2018/08/17 22:54:14.452,C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Interpreter.Model.Sintax.pas=C:\Users\w7\Desktop\Patterns\aulas\Interpreter\Unit2.pas</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Interpreter.Model.Context.pas"/>
+    <File Path="Interpreter.Model.Expression.Acao.pas"/>
+    <File Path="Interpreter.Model.Expression.Item.pas"/>
+    <File Path="Interpreter.Model.Interfaces.pas"/>
+    <File Path="Interpreter.Model.Sintax.pas"/>
+    <File Path="Interpreter.View.Principal.pas"/>
+    <File Path="Interpreter.View.Principal.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
