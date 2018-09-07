@@ -1,0 +1,13 @@
+unit FlyWeigth.Model.Interfaces;
+
+interface
+
+type
+  iFlyWeigth<t> = interface
+    ['{DFE91DD6-EED7-48A4-B3AA-0888B85809D4}']
+    function GetInstance : t;
+  end;
+
+implementation
+
+end.

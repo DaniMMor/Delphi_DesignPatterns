@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/05 17:21:34.000.671,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/17 22:16:57.000.789,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/26 14:30:47.000.495,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/26 14:31:57.000.219,C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Visitor.View.Principal.dfm</Transaction>
+    <Transaction>2018/08/26 14:31:57.000.219,C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Visitor.View.Principal.pas</Transaction>
+    <Transaction>2018/08/26 14:32:08.000.377,C:\Users\w7\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Visitor.dproj</Transaction>
+    <Transaction>2018/08/26 14:35:58.000.962,=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Unit1.pas</Transaction>
+    <Transaction>2018/08/26 14:36:31.000.080,C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Unit1.pas=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Visitor.Model.Interfaces.pas</Transaction>
+    <Transaction>2018/08/26 15:29:52.000.758,=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Unit1.pas</Transaction>
+    <Transaction>2018/08/26 15:30:48.000.385,C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Unit1.pas=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Visitor.Model.Item.pas</Transaction>
+    <Transaction>2018/08/26 15:50:32.026,=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Unit1.pas</Transaction>
+    <Transaction>2018/08/26 15:51:02.539,C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Visitor.Model.Item.Regra.Varejo.pas=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Unit1.pas</Transaction>
+    <Transaction>2018/08/26 16:21:16.899,=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Unit1.pas</Transaction>
+    <Transaction>2018/08/26 16:21:31.851,C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Visitor.Model.Item.Regra.Atacado.pas=C:\Users\w7\Documents\GitHub\DesingPatterns\Visitor\Unit1.pas</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Visitor.Model.Interfaces.pas"/>
+    <File Path="Visitor.Model.Item.pas"/>
+    <File Path="Visitor.Model.Item.Regra.Atacado.pas"/>
+    <File Path="Visitor.Model.Item.Regra.Varejo.pas"/>
+    <File Path="Visitor.View.Principal.pas"/>
+    <File Path="Visitor.View.Principal.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

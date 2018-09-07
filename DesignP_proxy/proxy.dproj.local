@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/05 17:21:34.000.671,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 19:53:32.198,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 19:54:00.041,C:\Users\w7\Desktop\Patterns\aulas\proxy\Proxy.View.Principal.dfm=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/13 19:54:00.041,C:\Users\w7\Desktop\Patterns\aulas\proxy\Proxy.View.Principal.pas=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 19:54:06.808,C:\Users\w7\Desktop\Patterns\aulas\proxy\proxy.dproj=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/13 19:54:13.792,=C:\Users\w7\Desktop\Patterns\aulas\proxy\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 19:54:51.308,C:\Users\w7\Desktop\Patterns\aulas\proxy\Proxy.Model.Inferfaces.pas=C:\Users\w7\Desktop\Patterns\aulas\proxy\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 19:58:16.010,=C:\Users\w7\Desktop\Patterns\aulas\proxy\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 19:58:31.464,C:\Users\w7\Desktop\Patterns\aulas\proxy\Proxy.Model.Produto.pas=C:\Users\w7\Desktop\Patterns\aulas\proxy\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 20:01:52.291,=C:\Users\w7\Desktop\Patterns\aulas\proxy\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 20:02:34.000,C:\Users\w7\Desktop\Patterns\aulas\proxy\Proxy.Model.Produto.Proxy.pas=C:\Users\w7\Desktop\Patterns\aulas\proxy\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

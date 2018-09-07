@@ -1,0 +1,24 @@
+unit FlyWeigth.Model.Interfaces;
+
+interface
+
+type
+  iFlyWeigth<t> = interface
+    ['{DFE91DD6-EED7-48A4-B3AA-0888B85809D4}']
+    function GetInstance : t;
+  end;
+
+  iCliente = interface
+    ['{6B0E9ADC-EFC7-47C6-AC1F-2B0FF7B6E205}']
+    function EnviarEmail : iCliente;
+    procedure SetEmail(const Value: string);
+    procedure SetNome(const Value: string);
+    function GetEmail: string;
+    function GetNome: string;
+    property Nome : string read GetNome write SetNome;
+    property Email : string read GetEmail write SetEmail;
+  end;
+
+implementation
+
+end.

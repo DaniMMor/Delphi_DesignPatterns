@@ -1,0 +1,36 @@
+unit Interpreter.Model.Sintax;
+
+interface
+
+type
+   TModelSintax = class(TInterfacedObject, iSintax)
+      private
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iSintax;
+         function Process(value : string) : string;
+
+end;
+
+implementation
+
+{ TModelSintax }
+
+constructor TModelSintax.Create;
+begin
+
+end;
+
+destructor TModelSintax.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelSintax.New: iSintax;
+begin
+  Result := Self.Create;
+end;
+
+end.

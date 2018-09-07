@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/05 17:21:34.000.671,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 20:50:28.866,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 20:51:06.273,C:\Users\w7\Desktop\Patterns\aulas\chain\Chain.View.Principal.pas=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 20:51:06.273,C:\Users\w7\Desktop\Patterns\aulas\chain\Chain.View.Principal.dfm=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/13 20:51:12.422,C:\Users\w7\Desktop\Patterns\aulas\chain\chain.dproj=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/13 20:51:40.685,=C:\Users\w7\Desktop\Patterns\aulas\chain\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 20:52:39.073,C:\Users\w7\Desktop\Patterns\aulas\chain\Chain.Model.Interfaces.pas=C:\Users\w7\Desktop\Patterns\aulas\chain\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 21:03:19.732,=C:\Users\w7\Desktop\Patterns\aulas\chain\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 21:04:04.427,C:\Users\w7\Desktop\Patterns\aulas\chain\Chain.Model.Usuario.Caixa.pas=C:\Users\w7\Desktop\Patterns\aulas\chain\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 21:14:34.854,=C:\Users\w7\Desktop\Patterns\aulas\chain\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 21:14:50.766,C:\Users\w7\Desktop\Patterns\aulas\chain\Chain.Model.Usuario.Fiscal.pas=C:\Users\w7\Desktop\Patterns\aulas\chain\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 21:16:33.258,=C:\Users\w7\Desktop\Patterns\aulas\chain\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 21:16:46.426,C:\Users\w7\Desktop\Patterns\aulas\chain\Chain.Model.Usuario.Gerente.pas=C:\Users\w7\Desktop\Patterns\aulas\chain\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 21:20:24.154,=C:\Users\w7\Desktop\Patterns\aulas\chain\Unit1.pas</Transaction>
+    <Transaction>2018/08/13 21:21:01.129,C:\Users\w7\Desktop\Patterns\aulas\chain\Chain.Model.Item.pas=C:\Users\w7\Desktop\Patterns\aulas\chain\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

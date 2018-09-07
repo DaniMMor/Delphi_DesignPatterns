@@ -1,0 +1,47 @@
+unit Interpreter.Model.Sintax;
+
+interface
+
+uses
+  Interpreter.Model.Interfaces, System.Generics.Collections, System.SysUtils, Interpreter.Model.Context;
+
+type
+   TModelSintax = class(TInterfacedObject, iSyntax)
+      private
+        FList : TList<iExpression>;
+        FContext : iContext;
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iSyntax;
+         function Process(value : string) : string;
+
+end;
+
+implementation
+
+{ TModelSintax }
+
+constructor TModelSintax.Create;
+begin
+  FList := TList<iExpression>.Create;
+  FContext := TModelContext.New;
+end;
+
+destructor TModelSintax.Destroy;
+begin
+  FreeAndNil(FList);
+  inherited;
+end;
+
+class function TModelSintax.New: iSyntax;
+begin
+  Result := Self.Create;
+end;
+
+function TModelSintax.Process(value: string): string;
+begin
+
+end;
+
+end.

@@ -1,0 +1,18 @@
+unit Visitor.Model.Interfaces;
+
+interface
+  type
+    iItem = interface
+      ['{98F2F535-9ED1-43FE-8F97-4D4637877A21}']
+      function SetPrecoUnitario(value : Currency) : iItem;
+    end;
+
+    iItemRegras = interface
+      ['{04598898-1397-49E7-93AC-0B7A990C2C4A}']
+      function PrecoVenda : Currency;
+    end;
+
+
+implementation
+
+end.

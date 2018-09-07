@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/05 17:21:34.000.671,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/17 22:16:57.000.789,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 21:05:09.311,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 21:06:58.040,C:\Users\w7\Desktop\Patterns\aulas\Memento\Memento.View.Principal.pas=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 21:06:58.040,C:\Users\w7\Desktop\Patterns\aulas\Memento\Memento.View.Principal.dfm=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/20 21:07:03.885,C:\Users\w7\Desktop\Patterns\aulas\Memento\Memento.dproj=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/20 21:07:10.145,=C:\Users\w7\Desktop\Patterns\aulas\Memento\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 21:07:23.045,C:\Users\w7\Desktop\Patterns\aulas\Memento\Memento.Model.Interfaces.pas=C:\Users\w7\Desktop\Patterns\aulas\Memento\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 21:20:29.264,=C:\Users\w7\Desktop\Patterns\aulas\Memento\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 21:20:40.684,C:\Users\w7\Desktop\Patterns\aulas\Memento\Memento.Model.Memento.pas=C:\Users\w7\Desktop\Patterns\aulas\Memento\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 21:35:37.144,=C:\Users\w7\Desktop\Patterns\aulas\Memento\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 21:36:00.796,C:\Users\w7\Desktop\Patterns\aulas\Memento\Memento.Model.Cliente.pas=C:\Users\w7\Desktop\Patterns\aulas\Memento\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

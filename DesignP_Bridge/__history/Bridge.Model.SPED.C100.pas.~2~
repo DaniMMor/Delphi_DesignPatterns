@@ -1,0 +1,35 @@
+unit Bridge.Model.SPED.C100;
+
+interface
+
+type
+   TModelSPEDC100 = class(TInterfacedObject, iMinhaInterface)
+      private
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iMinhaInterface;
+
+end;
+
+implementation
+
+{ TModelSPEDC100 }
+
+constructor TModelSPEDC100.Create;
+begin
+
+end;
+
+destructor TModelSPEDC100.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelSPEDC100.New: iMinhaInterface;
+begin
+  Result := Self.Create;
+end;
+
+end.

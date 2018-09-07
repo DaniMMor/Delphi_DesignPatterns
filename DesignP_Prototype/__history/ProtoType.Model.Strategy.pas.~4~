@@ -1,0 +1,20 @@
+unit ProtoType.Model.Strategy;
+
+interface
+type
+  TPromocao = (Domingo, Segunda, Terca, Quarta, Quinta, Sexta, Sabado);
+
+  THelperPromocao = record helper for TPromocao
+    function PrecoVenda : Currency;
+  end;
+
+implementation
+
+{ THelperPromocao }
+
+function THelperPromocao.PrecoVenda: Currency;
+begin
+
+end;
+
+end.

@@ -1,0 +1,15 @@
+program FactoryMethod;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  FactoryMethod.View.Principal in 'FactoryMethod.View.Principal.pas' {Form1},
+  FactoryMethod.Model.CocaCola in 'FactoryMethod.Model.CocaCola.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

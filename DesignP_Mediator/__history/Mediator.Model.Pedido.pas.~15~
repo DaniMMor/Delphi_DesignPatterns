@@ -1,0 +1,81 @@
+unit Mediator.Model.Pedido;
+
+interface
+
+uses
+  Mediator.Model.Interfaces;
+
+type
+   TModelPedido = class(TInterfacedObject, iColleague, iDisplay<iColleague>)
+      private
+        FDestino, FOrigem : iColleague;
+        FMediator : iMediator;
+        FSetor, FName : string;
+        FDisplay : TEvExibir;
+    function ReceverPedido(FOrigem: iColleague; Setor: string): iColleague;
+      public
+         constructor Create(value : iMediator; Name : string);
+         destructor Destroy ; override;
+         class function New(value : iMediator; Name : string): iColleague;
+         function EnviarPedido(FDestino : iColleague; Setor : string) : iColleague;
+         function ReceberPedido(FOrigem : iColleague; Setor : string) : iColleague;
+         function GetName : string;
+         function Display : iDisplay<iColleague>;
+         function Exibir(value : TEvExibir) : iDisplay<iColleague>;
+         function &end : iColleague;
+end;
+
+implementation
+
+{ TModelPedido }
+
+function TModelPedido.&end: iColleague;
+begin
+   Result := Self;
+end;
+
+constructor TModelPedido.Create;
+begin
+
+end;
+
+destructor TModelPedido.Destroy;
+begin
+
+  inherited;
+end;
+
+function TModelPedido.Display: iDisplay<iColleague>;
+begin
+   Result := Self;
+end;
+
+function TModelPedido.EnviarPedido(FDestino: iColleague;
+  Setor: string): iColleague;
+begin
+
+end;
+
+function TModelPedido.Exibir(value: TEvExibir): iDisplay<iColleague>;
+begin
+   Result := Self;
+   FDisplay := value;
+end;
+
+function TModelPedido.GetName: string;
+begin
+
+end;
+
+class function TModelPedido.New: iColleague;
+begin
+  Result := Self.Create;
+end;
+
+function TModelPedido.ReceberPedido(FOrigem: iColleague;
+  Setor: string): iColleague;
+begin
+
+end;
+
+end.

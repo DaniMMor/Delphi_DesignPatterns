@@ -1,0 +1,7 @@
+unit Mediator.Model.Interfaces;
+
+interface
+
+implementation
+
+end.

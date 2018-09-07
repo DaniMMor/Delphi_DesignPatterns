@@ -1,0 +1,16 @@
+program FlyWeigth;
+
+uses
+  Vcl.Forms,
+  FlyWeigth.View.Principal in 'FlyWeigth.View.Principal.pas' {Form1},
+  FlyWeigth.Model.Interfaces in 'FlyWeigth.Model.Interfaces.pas',
+  FlyWeigth.Model.Cliente in 'FlyWeigth.Model.Cliente.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/05 17:21:34.000.671,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/08 22:22:21.000.729,=C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/08 22:23:06.000.858,C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Bridge.View.Principal.pas</Transaction>
+    <Transaction>2018/08/08 22:23:06.000.858,C:\Users\w7\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Bridge.View.Principal.dfm</Transaction>
+    <Transaction>2018/08/08 22:23:13.000.799,C:\Users\w7\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Bridge.dproj</Transaction>
+    <Transaction>2018/08/08 22:23:26.000.709,=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Unit1.pas</Transaction>
+    <Transaction>2018/08/08 22:24:02.000.746,C:\Users\w7\Desktop\Patterns\aulas\Bridge\Unit1.pas=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Bridge.Model.Interfaces.pas</Transaction>
+    <Transaction>2018/08/09 20:25:52.633,=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Unit1.pas</Transaction>
+    <Transaction>2018/08/09 20:27:10.656,C:\Users\w7\Desktop\Patterns\aulas\Bridge\Bridge.Model.Venda.pas=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Unit1.pas</Transaction>
+    <Transaction>2018/08/09 20:51:01.623,=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Unit1.pas</Transaction>
+    <Transaction>2018/08/09 20:51:47.873,C:\Users\w7\Desktop\Patterns\aulas\Bridge\Bridge.Model.SPED.C100.pas=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Unit1.pas</Transaction>
+    <Transaction>2018/08/09 21:18:27.330,=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Unit1.pas</Transaction>
+    <Transaction>2018/08/09 21:18:39.940,C:\Users\w7\Desktop\Patterns\aulas\Bridge\Bridge.Model.SPED.C190.pas=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Unit1.pas</Transaction>
+    <Transaction>2018/08/09 21:32:21.719,=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Unit1.pas</Transaction>
+    <Transaction>2018/08/09 21:32:37.876,C:\Users\w7\Desktop\Patterns\aulas\Bridge\Bridge.Model.SPED.C140.pas=C:\Users\w7\Desktop\Patterns\aulas\Bridge\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

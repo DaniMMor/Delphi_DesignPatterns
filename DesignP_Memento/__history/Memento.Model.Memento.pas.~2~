@@ -1,0 +1,35 @@
+unit Memento.Model.Memento;
+
+interface
+
+type
+   TModelMemento = class(TInterfacedObject, iMinhaInterface)
+      private
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iMinhaInterface;
+
+end;
+
+implementation
+
+{ TModelMemento }
+
+constructor TModelMemento.Create;
+begin
+
+end;
+
+destructor TModelMemento.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelMemento.New: iMinhaInterface;
+begin
+  Result := Self.Create;
+end;
+
+end.

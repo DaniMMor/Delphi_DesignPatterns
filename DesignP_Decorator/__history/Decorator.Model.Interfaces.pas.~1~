@@ -1,0 +1,7 @@
+unit Decorator.Model.Interfaces;
+
+interface
+
+implementation
+
+end.

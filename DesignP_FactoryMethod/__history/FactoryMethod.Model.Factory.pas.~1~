@@ -1,0 +1,35 @@
+unit FactoryMethod.Model.Factory;
+
+interface
+
+type
+   TModelFactory = class(TInterfacedObject, iRefrigeranteFactory)
+      private
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iRefrigeranteFactory;
+
+end;
+
+implementation
+
+{ TModelFactory }
+
+constructor TModelFactory.Create;
+begin
+
+end;
+
+destructor TModelFactory.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelFactory.New: iRefrigeranteFactory;
+begin
+  Result := Self.Create;
+end;
+
+end.

@@ -1,0 +1,23 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 120
+  ClientWidth = 214
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btn1: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 24.000000000000000000
+    TabOrder = 1
+    Text = 'btn1'
+  end
+  object btn2: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 64.000000000000000000
+    TabOrder = 2
+    Text = 'btn2'
+  end
+end

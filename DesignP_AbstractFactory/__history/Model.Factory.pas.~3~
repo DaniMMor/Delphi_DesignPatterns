@@ -1,0 +1,39 @@
+unit Model.Factory;
+
+interface
+
+uses
+  Model.Interfaces;
+
+type TModelFactory = class(TInterfacedObject, iFactory)
+  private
+  public
+    constructor Create ;
+    destructor Destroy ; override;
+    class function New: iFactory;
+    function Pessoa : iPessoa;
+    function NotaFiscal : iNotaFiscal;
+
+end;
+
+implementation
+
+{ TModelFactory }
+
+constructor TModelFactory.Create;
+begin
+
+end;
+
+destructor TModelFactory.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelFactory.New: iFactory;
+begin
+  Result := Self.Create;
+end;
+
+end.

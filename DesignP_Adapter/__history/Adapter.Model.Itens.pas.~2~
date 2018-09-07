@@ -1,0 +1,38 @@
+unit Adapter.Model.Itens;
+
+interface
+
+uses
+  Adapter.Model.Interfaces;
+
+type
+   TModelItens = class(TInterfacedObject, iModelItens)
+      private
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iModelItens;
+
+end;
+
+implementation
+
+{ TModelItens }
+
+constructor TModelItens.Create;
+begin
+
+end;
+
+destructor TModelItens.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelItens.New: iModelItens;
+begin
+  Result := Self.Create;
+end;
+
+end.

@@ -1,0 +1,40 @@
+unit FlyWeigth.Model.FlyWeigth;
+
+interface
+
+uses
+  FlyWeigth.Model.Interfaces, System.Generics.Collections;
+
+type
+   TModelFlyWeigth = class(TInterfacedObject, iFlyWeigth)
+      private
+       FListaCliente : TDictionary<string,iCliente>;
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iFlyWeigth;
+         function GetCliente: iCliente;
+
+end;
+
+implementation
+
+{ TModelFlyWeigth }
+
+constructor TModelFlyWeigth.Create;
+begin
+
+end;
+
+destructor TModelFlyWeigth.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelFlyWeigth.New: iFlyWeigth;
+begin
+  Result := Self.Create;
+end;
+
+end.

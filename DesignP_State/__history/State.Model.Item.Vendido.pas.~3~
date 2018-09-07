@@ -1,0 +1,38 @@
+unit State.Model.Item.Vendido;
+
+interface
+
+uses
+  State.Model.Interfaces;
+
+type
+   TModelItemVendido = class(TInterfacedObject, iItemOperacoes)
+      private
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iItemOperacoes;
+
+end;
+
+implementation
+
+{ TModelItemVendido }
+
+constructor TModelItemVendido.Create;
+begin
+
+end;
+
+destructor TModelItemVendido.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelItemVendido.New: iItemOperacoes;
+begin
+  Result := Self.Create;
+end;
+
+end.

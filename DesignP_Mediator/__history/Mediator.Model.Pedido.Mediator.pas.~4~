@@ -1,0 +1,42 @@
+unit Mediator.Model.Pedido.Mediator;
+
+interface
+
+uses
+  Mediator.Model.Interfaces;
+
+type
+   TModelPedidoMediator = class(TInterfacedObject, iMediator, iDisplay<iMediator>)
+      private
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iMediator;
+         function Add(value : iColleague) : iMediator;
+         function EnviarPedido(FOrigem, FDestino : iColleague; Pedido : string) : iMediator;
+         function Get(value : string) : iColleague;
+         function Display : iDisplay<iMediator>;
+
+end;
+
+implementation
+
+{ TModelPedidoMediator }
+
+constructor TModelPedidoMediator.Create;
+begin
+
+end;
+
+destructor TModelPedidoMediator.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelPedidoMediator.New: iMediator,;
+begin
+  Result := Self.Create;
+end;
+
+end.

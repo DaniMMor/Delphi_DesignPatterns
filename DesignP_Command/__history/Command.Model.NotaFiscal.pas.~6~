@@ -1,0 +1,81 @@
+unit Command.Model.NotaFiscal;
+
+interface
+
+uses
+  Command.Model.Interfaces;
+
+type
+   TModelNotaFiscall = class(TInterfacedObject, iNotaFiscal)
+      private
+      FDisplay : TEvDisplay;
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iNotaFiscal;
+          function Criar : iNotaFiscal;
+          function Validar : iNotaFiscal;
+          function Enviar : iNotaFiscal;
+          function Gravar : iNotaFiscal;
+          function Email : iNotaFiscal;
+          function Display(Value : TEvDisplay) : iNotaFiscal;
+
+end;
+
+implementation
+
+{ TModelNotaFiscall }
+
+constructor TModelNotaFiscall.Create;
+begin
+
+end;
+
+function TModelNotaFiscall.Criar: iNotaFiscal;
+begin
+   Result := Self;
+   FDisplay('Nota Fiscal - Criar');
+end;
+
+destructor TModelNotaFiscall.Destroy;
+begin
+
+  inherited;
+end;
+
+function TModelNotaFiscall.Display(Value: TEvDisplay): iNotaFiscal;
+begin
+    Result := Self;
+    FDisplay := Value;
+end;
+
+function TModelNotaFiscall.Email: iNotaFiscal;
+begin
+   Result := Self;
+   FDisplay('Nota Fiscal - EMail');
+end;
+
+function TModelNotaFiscall.Enviar: iNotaFiscal;
+begin
+   Result := Self;
+   FDisplay('Nota Fiscal - Enviar');
+end;
+
+function TModelNotaFiscall.Gravar: iNotaFiscal;
+begin
+    Result := Self;
+   FDisplay('Nota Fiscal - Gravar');
+end;
+
+class function TModelNotaFiscall.New: iNotaFiscal;
+begin
+  Result := Self.Create;
+end;
+
+function TModelNotaFiscall.Validar: iNotaFiscal;
+begin
+   Result := Self;
+   FDisplay('Nota Fiscal - Validar');
+end;
+
+end.

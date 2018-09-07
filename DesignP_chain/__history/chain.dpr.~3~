@@ -1,0 +1,16 @@
+program chain;
+
+uses
+  Vcl.Forms,
+  Chain.View.Principal in 'Chain.View.Principal.pas' {Form1},
+  Chain.Model.Interfaces in 'Chain.Model.Interfaces.pas',
+  Chain.Model.Usuario.Caixa in 'Chain.Model.Usuario.Caixa.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

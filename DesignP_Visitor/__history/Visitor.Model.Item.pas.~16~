@@ -1,0 +1,66 @@
+unit Visitor.Model.Item;
+
+interface
+
+uses
+  Visitor.Model.Interfaces;
+
+type
+   TModelItem = class(TInterfacedObject, iItem, iItemRegras, iVisitable)
+      private
+        FPrecoUnitario : Currency;
+        FVisitor : iVisitor;
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iItem;
+         function SetPrecoUnitario(value : Currency) : iItem;
+         function PrecoUnitario : Currency;
+         function PrecoVenda : Currency;
+         function PrecoPromocao : Currency;
+         function Accept(value : iVisitor) : iItemRegras;
+
+end;
+
+implementation
+
+{ TModelItem }
+
+function TModelItem.Accept(value: iVisitor): iItemRegras;
+begin
+  FVisitor := value;
+  Result := FVisitor.Visit(Self);
+end;
+
+constructor TModelItem.Create;
+begin
+
+end;
+
+destructor TModelItem.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelItem.New: iItem;
+begin
+  Result := Self.Create;
+end;
+
+function TModelItem.PrecoPromocao: Currency;
+begin
+  Result := 0;
+end;
+
+function TModelItem.PrecoVenda: Currency;
+begin
+  Result := 0;
+end;
+
+function TModelItem.SetPrecoUnitario(value: Currency): iItem;
+begin
+  FPrecoUnitario := value;
+end;
+
+end.

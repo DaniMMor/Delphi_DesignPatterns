@@ -1,0 +1,40 @@
+unit Command.Model.NotaFiscal.Criar;
+
+interface
+
+uses
+  Command.Model.Interfaces;
+
+type
+   TModelNotaFiscalCriar = class(TInterfacedObject, iCommand)
+      private
+        FReceiver : iNotaFiscal;
+      public
+         constructor Create(FReceiver : iNotaFiscal) ;
+         destructor Destroy ; override;
+         class function New(FReceiver :iNotaFiscal): iCommand;
+         function Execute : iCommand;
+
+end;
+
+implementation
+
+{ TModelNotaFiscalCriar }
+
+constructor TModelNotaFiscalCriar.Create(FReceiver : iNotaFiscal) ;
+begin
+
+end;
+
+destructor TModelNotaFiscalCriar.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelNotaFiscalCriar.New(FReceiver :iNotaFiscal): iCommand;
+begin
+  Result := Self.Create;
+end;
+
+end.

@@ -1,0 +1,85 @@
+unit FlyWeigth.Model.ClienteUSA;
+
+interface
+
+uses
+  FlyWeigth.Model.Interfaces;
+
+type
+   TModelClienteUSA = class(TInterfacedObject, iCliente)
+      private
+    FEmail: string;
+    FNome: string;
+    FDisplay : TEvDisplay;
+
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iCliente;
+         function Display(value : TEvDisplay) : iCliente;
+         function EnviarEmail : iCliente;
+          procedure SetEmail(const Value: string);
+         procedure SetNome(const Value: string);
+         function GetEmail: string;
+         function GetNome: string;
+         property Nome : string read GetNome write SetNome;
+         property Email : string read GetEmail write SetEmail;
+
+
+
+end;
+
+implementation
+
+{ TModelClienteUSA }
+
+constructor TModelClienteUSA.Create;
+begin
+
+end;
+
+destructor TModelClienteUSA.Destroy;
+begin
+
+  inherited;
+end;
+
+function TModelClienteUSA.Display(value: TEvDisplay): iCliente;
+begin
+   Result := Self;
+   FDisplay := Value ;
+end;
+
+function TModelClienteUSA.EnviarEmail: iCliente;
+begin
+  Result := Self;
+  FDisplay('USA '+FNome + ' - ' + FEmail);
+end;
+
+function TModelClienteUSA.GetEmail: string;
+begin
+ Result := FEmail;
+end;
+
+function TModelClienteUSA.GetNome: string;
+begin
+  Result := FEmail;
+end;
+
+class function TModelClienteUSA.New: iCliente;
+begin
+  Result := Self.Create;
+end;
+
+procedure TModelClienteUSA.SetEmail(const Value: string);
+begin
+  FEmail := Value;
+end;
+
+procedure TModelClienteUSA.SetNome(const Value: string);
+begin
+  FNome := Value;
+end;
+
+end.
+

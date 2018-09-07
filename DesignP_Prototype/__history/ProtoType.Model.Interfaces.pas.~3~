@@ -1,0 +1,19 @@
+unit ProtoType.Model.Interfaces;
+
+interface
+
+type
+ iItens = interface
+   ['{343604EA-F6B7-47F5-AEDC-3C1A66F77C7A}']
+   procedure SetCodigo(const Value: Integer);
+   procedure SetDescricao(const Value: string);
+   function GetCodigo : Integer;
+   function GetDescricao : String;
+   property Codigo : Integer read GetCodigo write SetCodigo;
+   property Descricao : string read GetDescricao write SetDescricao;
+
+ end;
+
+implementation
+
+end.

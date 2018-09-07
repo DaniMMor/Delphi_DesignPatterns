@@ -1,0 +1,13 @@
+unit Memento.Model.Interfaces;
+
+interface
+type
+    iMemento<t> = interface
+      ['{73B46740-549D-4C13-9444-FFDCFFEF1F8C}']
+      function Save(key : string) : iMemento<t>;
+      function Restore(key : string) : t;
+    end;
+
+implementation
+
+end.

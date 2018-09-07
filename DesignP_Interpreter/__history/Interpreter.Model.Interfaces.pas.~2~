@@ -1,0 +1,17 @@
+unit Interpreter.Model.Interfaces;
+
+interface
+
+type
+    iContext = interface
+      function GetEntrada : string;
+      function GetSaida : string;
+      function SetEntrada(const value : string);
+      function SetSaida(const value : string);
+      property  Entrada : string read GetEntrada write SetEntrada;
+      property  Saida : string read GetSaida write  SetSaida;
+    end;
+
+implementation
+
+end.

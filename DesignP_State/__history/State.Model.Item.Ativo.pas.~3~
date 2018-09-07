@@ -1,0 +1,35 @@
+unit State.Model.Item.Ativo;
+
+interface
+
+type
+   TModelItemAtivo = class(TInterfacedObject, iI )
+      private
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iMinhaInterface;
+
+end;
+
+implementation
+
+{ TModelItemAtivo }
+
+constructor TModelItemAtivo.Create;
+begin
+
+end;
+
+destructor TModelItemAtivo.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelItemAtivo.New: iMinhaInterface;
+begin
+  Result := Self.Create;
+end;
+
+end.

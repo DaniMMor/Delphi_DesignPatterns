@@ -1,0 +1,38 @@
+unit Memento.Model.Memento;
+
+interface
+
+uses
+  Memento.Model.Interfaces;
+
+type
+   TModelMemento = class(TInterfacedObject, iMementoZelador<iCliente>)
+      private
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iMementoZelador<iCliente>;
+
+end;
+
+implementation
+
+{ TModelMemento }
+
+constructor TModelMemento.Create;
+begin
+
+end;
+
+destructor TModelMemento.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelMemento.New: iMementoZelador<iCliente>;
+begin
+  Result := Self.Create;
+end;
+
+end.

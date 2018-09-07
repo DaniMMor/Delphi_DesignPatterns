@@ -1,0 +1,20 @@
+unit Chain.Model.Interfaces;
+
+interface
+type
+  iItem = interface;
+
+  iOperacoes = interface
+   ['{F9563DFE-938D-4470-93F0-B58CA015A78E}']
+   function Desconto(value : Currency) : iOperacoes;
+   function &end : iItem;
+  end;
+
+  iItem = interface
+    ['{53466A5C-8AB2-4624-AFB0-A864C71BA253}']
+    function Operacaoes : iOperacoes;
+  end;
+
+implementation
+
+end.

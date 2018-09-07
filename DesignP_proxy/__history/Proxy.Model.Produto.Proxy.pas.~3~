@@ -1,0 +1,35 @@
+unit Proxy.Model.Produto.Proxy;
+
+interface
+
+type
+   TModelProdutoProxy = class(TInterfacedObject, iProxyProduto)
+      private
+      public
+         constructor Create ;
+         destructor Destroy ; override;
+         class function New: iProxyProduto;
+
+end;
+
+implementation
+
+{ TModelProdutoProxy }
+
+constructor TModelProdutoProxy.Create;
+begin
+
+end;
+
+destructor TModelProdutoProxy.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelProdutoProxy.New: iProxyProduto;
+begin
+  Result := Self.Create;
+end;
+
+end.

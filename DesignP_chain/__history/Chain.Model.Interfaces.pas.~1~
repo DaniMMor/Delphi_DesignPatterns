@@ -1,0 +1,7 @@
+unit Chain.Model.Interfaces;
+
+interface
+
+implementation
+
+end.
